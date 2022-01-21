@@ -1,45 +1,67 @@
-######################## default configuration ####################
-baseURL = "/news-website-template"
-title = "新闻"
-theme = "editor"
-# post pagination
-paginate = "12"
-# post excerpt
-summaryLength = "10"
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # desable language from here
-
+baseURL = "/ivychere.github.io"
 defaultContentLanguage = "cn"
-
+disableLanguages = []
+disqusShortname = ""
+googleAnalytics = ""
+paginate = "12"
 show_email_in_nav = "false"
-
-############################# Outputs ##############################
+summaryLength = "10"
+theme = "editor"
+title = "新闻"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.main]]
+name = "首页"
+url = ""
+weight = 1
+[[menu.main]]
+name = "关于"
+url = "about/"
+weight = 2
+[[menu.main]]
+name = "新闻"
+url = "news/"
+weight = 3
+[[menu.main]]
+hasChildren = true
+name = "更多"
+weight = 4
+[[menu.main]]
+name = "编辑帮助"
+parent = "更多"
+url = "elements/"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-[markup.goldmark.renderer]
-unsafe= true
-
-############################# Plugins ##############################
-
-# CSS Plugins
+[params]
+address = ""
+author = "我是作者"
+contact_form_action = "#"
+custom_script = ""
+description = "这是描述"
+email = ""
+favicon = "images/favicon/favicon.ico"
+logo = "images/InterImm_logo.png"
+logo_height = "26px"
+logo_rotate = true
+logo_text = "新闻"
+mainSections = ["news"]
+mobile = ""
+search = true
+[params.cookies]
+enable = false
+expire_days = 2
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
@@ -48,42 +70,17 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-
-#################### default parameters ################################
-[params]
-favicon = "images/favicon/favicon.ico"
-logo_text = "新闻"
-logo = "images/InterImm_logo.png"
-logo_height = "26px"
-logo_rotate = true
-# Meta data
-description = "这是描述"
-author = "我是作者"
-# contact info
-address = ""
-mobile = ""
-email = ""
-# contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
-# Search
-search = true
-# Main section
-mainSections = ["news"]
-# custom script on header
-custom_script= ""
-
-# site variables
+[params.preloader]
+enable = false
+preloader = ""
+[params.subscription]
+enable = false
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [params.variables]
-# color variables
-primary_color = "#c98664"
-secondary_color = "#c98665"
-white = "#ffffff"
 black = "#000000"
 dark = "#2B2C2E"
 gray = "#66676d"
-light = "#a8aab2"
-
-# font-size variables
 h1 = "68px"
 h1_lg = "52px"
 h1_md = "40px"
@@ -94,93 +91,28 @@ h3_md = "28px"
 h4 = "24px"
 h5 = "18px"
 h6 = "16px"
-
-# font variable
-# Give your font name from google font. add font weight using ":wght@" and separate by ";"
-# example: "Work Sans:wght@400;600;700"
-primary_font = "Lora:wght@500;600"
-secondary_font = "Work Sans:wght@400;500;600"
 icon_font = "Font Awesome 5 Free"
-
-# Preloader
-[params.preloader]
-enable = false
-preloader = "" # use jpg, png, svg or gif format.
-
-# Subscription
-[params.subscription]
-enable = false
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
-
-# cookies
-[params.cookies]
-enable = false
-expire_days = 2
-
-
-######################## sidebar widgets #########################
+light = "#a8aab2"
+primary_color = "#c98664"
+primary_font = "Lora:wght@500;600"
+secondary_color = "#c98665"
+secondary_font = "Work Sans:wght@400;500;600"
+white = "#ffffff"
 [params.widgets]
 sidebar = ["about-me", "recent-post", "categories", "tags"]
-# available widget : search,about-me,authors,categories,tags,recent-post,social,promotion,subscription
-
-############################# social site ########################
 [[params.social]]
-title = "Facebook"
-icon = "fab fa-facebook" # Fhemify icon : https://themify.me/themify-icons
+icon = "fab fa-facebook"
 link = "https://facebook.com"
-
+title = "Facebook"
 [[params.social]]
-title = "Twitter"
-icon = "fab fa-twitter" # Fhemify icon : https://themify.me/themify-icons
+icon = "fab fa-twitter"
 link = "https://twitter.com"
-
+title = "Twitter"
 [[params.social]]
-title = "Instagram"
-icon = "fab fa-instagram" # Fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-instagram"
 link = "https://instagram.com"
-
+title = "Instagram"
 [[params.social]]
-title = "Github"
-icon = "fab fa-github" # Fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-github"
 link = "https://github.com"
-
-
-
-################################### Chinese language #####################################
-
-
-############# navigation ##############
-# main menu
-[[menu.main]]
-name = "首页"
-url = ""
-weight = 1
-
-[[menu.main]]
-name = "关于"
-url = "about/"
-weight = 2
-
-[[menu.main]]
-name = "新闻"
-url = "news/"
-weight = 3
-
-[[menu.main]]
-weight = 4
-name = "更多"
-hasChildren = true
-
-  [[menu.main]]
-  parent = "更多"
-  weight = 3
-  url = "elements/"
-  name = "编辑帮助"
-
-
-# [[menu.main]]
-# name = "联系"
-# url = "contact/"
-# weight = 5
+title = "Github"
