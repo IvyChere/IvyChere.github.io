@@ -11,7 +11,7 @@ title = "新闻"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-name = "其他"
+name = "其他文章"
 url = "others/"
 weight = 4
 [[menu.main]]
