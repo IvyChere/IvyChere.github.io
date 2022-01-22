@@ -14,13 +14,6 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: content/others
-  label: Others
-  create: all
-  match: "**/*"
-  templates:
-  - news
-- type: directory
   path: content/news
   label: News (CN)
   create: all
