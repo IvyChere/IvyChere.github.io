@@ -21,7 +21,6 @@ fields:
   name: categories
   label: categories
 pages:
-- content/news/99.html
 - content/news/uai.md
 - content/news/四大商会合并.md
 - content/news/奇点城管理局提出建议-推动器官农场合法化.md
