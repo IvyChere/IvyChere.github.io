@@ -18,6 +18,8 @@ sections:
   label: Others
   create: all
   match: "**/*"
+  templates:
+  - news
 - type: directory
   path: content/news
   label: News (CN)
