@@ -11,26 +11,29 @@ title = "新闻"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-name = "首页"
-url = ""
+name = "其他"
+url = "others/"
+weight = 5
+[[menu.main]]
+name = "编辑帮助"
+parent = "更多"
+url = "elements/"
 weight = 1
-[[menu.main]]
-name = "关于"
-url = "about/"
-weight = 2
-[[menu.main]]
-name = "新闻"
-url = "news/"
-weight = 3
 [[menu.main]]
 hasChildren = true
 name = "更多"
 weight = 4
 [[menu.main]]
-name = "编辑帮助"
-parent = "更多"
-url = "elements/"
+name = "新闻"
+url = "news/"
 weight = 3
+[[menu.main]]
+name = "关于"
+url = "about/"
+weight = 2
+[[menu.main]]
+name = "首页"
+weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
