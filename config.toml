@@ -1,4 +1,4 @@
-baseURL = "/ivychere.github.io"
+baseURL = ""
 defaultContentLanguage = "cn"
 disableLanguages = []
 disqusShortname = ""
