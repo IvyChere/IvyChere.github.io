@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = ["星辰通讯社"]
 date = 2022-01-21T16:00:00Z
 description = ""
 images = []
