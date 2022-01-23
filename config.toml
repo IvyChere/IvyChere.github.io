@@ -114,7 +114,7 @@ icon = "fab fa-twitter"
 link = "https://twitter.com"
 title = "Twitter"
 [[params.social]]
-icon = "images/InterImm_logo.png"
+icon = "fab fa-instagram"
 link = "https://interimm.org"
 title = "InterImm"
 [[params.social]]
