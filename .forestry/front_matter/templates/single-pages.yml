@@ -1,0 +1,35 @@
+---
+label: single pages
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: name
+  label: name
+- type: text
+  name: email
+  label: email
+- type: file
+  name: image
+  label: image
+- type: text
+  name: summary
+  label: summary
+- type: field_group
+  name: partners
+  label: partners
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
