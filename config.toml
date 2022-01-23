@@ -11,17 +11,23 @@ title = "星辰通讯社"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-name = "编辑帮助"
+name = "其他文章"
 parent = "更多"
-url = "elements/"
+url = "others/"
+weight = 3
+[[menu.main]]
+name = "所有文章"
+parent = "更多"
+url = "news/"
 weight = 1
+[[menu.main]]
+name = "新闻归档"
+parent = "更多"
+url = "archived-news/"
+weight = 2
 [[menu.main]]
 hasChildren = true
 name = "更多"
-weight = 4
-[[menu.main]]
-name = "新闻"
-url = "news/"
 weight = 3
 [[menu.main]]
 name = "关于"
