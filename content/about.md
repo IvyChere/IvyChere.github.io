@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2020-09-24T11:07:10.000+06:00
-description: ''
+description: '俯瞰昆仑，仰望星辰'
 layout: about
 name: 星辰通讯社
 email: editor@domain.com
