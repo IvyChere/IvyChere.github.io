@@ -20,5 +20,3 @@ fields:
 - type: text
   name: summary
   label: summary
-pages:
-- content/新闻归档.md
