@@ -5,3 +5,6 @@
 
 
 超级感谢[章鱼喵](https://github.com/emptymalei)老师做的Hugo模板，感谢！！！！！！！
+
+
+（其实应该说整个网站都是老师搭的我就是fork过来了而已XD）
