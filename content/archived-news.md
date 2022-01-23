@@ -1,12 +1,11 @@
 ---
 title: 新闻归档
 description: ''
-draft: true
 
 ---
-[联合小行星垄断行径遭曝光： UAI恐陷入信誉危机](http://starspress.wikidot.com/m-571122) 2057.11.22  
+[联合小行星垄断行径遭曝光： UAI恐陷入信誉危机](https://starspress.org/news/uai/ "联合小行星垄断行径遭曝光： UAI恐陷入信誉危机") 2057.11.22  
    
-[联合国决定成立星际移民局](http://starspress.wikidot.com/m-620723)  
+[https://starspress.org/news/uai/](https://starspress.org/news/%E8%81%94%E5%90%88%E5%9B%BD%E5%86%B3%E5%AE%9A%E6%88%90%E7%AB%8B%E6%98%9F%E9%99%85%E7%A7%BB%E6%B0%91%E5%B1%80/ "联合国决定成立星际移民局")  
 2062\.7.23  
    
 [火星移民登记正式对公众开放](http://starspress.wikidot.com/m-780407) 2078.4.7  
