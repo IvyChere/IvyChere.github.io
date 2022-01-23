@@ -18,18 +18,5 @@ fields:
   name: name
   label: name
 - type: text
-  name: email
-  label: email
-- type: file
-  name: image
-  label: image
-- type: text
   name: summary
   label: summary
-- type: field_group
-  name: partners
-  label: partners
-  fields:
-  - type: boolean
-    name: enable
-    label: enable
