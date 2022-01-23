@@ -7,7 +7,7 @@ paginate = "12"
 show_email_in_nav = "false"
 summaryLength = "10"
 theme = "editor"
-title = "新闻"
+title = "星辰通讯社"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
@@ -34,10 +34,10 @@ weight = 1
 home = ["HTML", "RSS", "JSON"]
 [params]
 address = ""
-author = "我是作者"
+author = "星辰通讯社"
 contact_form_action = "#"
 custom_script = ""
-description = "这是描述"
+description = "俯瞰昆仑，仰望星辰"
 email = ""
 favicon = "images/favicon/favicon.ico"
 logo = "images/InterImm_logo.png"
