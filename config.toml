@@ -106,18 +106,6 @@ white = "#ffffff"
 [params.widgets]
 sidebar = ["about-me", "recent-post", "categories", "tags"]
 [[params.social]]
-icon = "fab fa-facebook"
-link = "https://facebook.com"
-title = "Facebook"
-[[params.social]]
-icon = "fab fa-twitter"
-link = "https://twitter.com"
-title = "Twitter"
-[[params.social]]
-icon = "fab fa-instagram"
-link = "https://instagram.com"
-title = "InterImm"
-[[params.social]]
 icon = "fab fa-github"
 link = "https://github.com/IvyChere/ivychere.github.io/"
 title = "Github"
