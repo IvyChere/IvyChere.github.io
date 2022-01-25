@@ -20,8 +20,9 @@ partners:
 我们致力于将快速、详细、准确的第一手新闻报道提供给报刊、电视台等各式媒体及新媒体。
 
 ### **上层叙事的我们**
+早安，这里是Ivy_C
 
-基于[星际移民局](https://interimm.org)的二次创作
+这个是基于[星际移民局](https://interimm.org)的二次创作
 
 若无特殊说明，遵守[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)协议(´･ω･`)
 
