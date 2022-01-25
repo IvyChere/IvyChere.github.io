@@ -22,11 +22,11 @@ partners:
 ### **上层叙事的我们**
 早安，这里是Ivy_C
 
-这个是基于[星际移民局](https://interimm.org)的二次创作
+“星辰通讯社”是基于[星际移民局](https://interimm.org)的二次创作
 
 若无特殊说明，遵守[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)协议(´･ω･`)
 
-超级感谢[章鱼喵](https://github.com/emptymalei)老师做的Hugo模板，感谢！！！！！！！
+超级感谢[章鱼喵](https://github.com/emptymalei)老师搭的网站和做的Hugo模板，感谢！！！！！！！
 
 （其实应该说整个网站都是老师搭的我就是fork过来了而已XD）
 
