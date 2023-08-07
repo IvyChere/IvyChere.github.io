@@ -5,7 +5,7 @@ description: 俯瞰昆仑，仰望星辰
 layout: about
 name: 星辰通讯社
 email: editor@domain.com
-image: /images/img-0235.png
+image: /images/img-0235-1.png
 summary: 俯瞰昆仑，仰望星辰
 partners:
   enable: false
