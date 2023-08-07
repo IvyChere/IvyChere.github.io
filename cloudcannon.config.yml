@@ -1,0 +1,34 @@
+collections_config:
+  pages-(cn):
+    name: Pages (CN)
+    path: content
+    filter:
+      exclude:
+        - blogs/_index.md
+        - news/b-331226.md
+        - news/iia-q-and-a.md
+        - news/m-020620.md
+        - news/m-560215.md
+        - news/m-571122.md
+        - news/m-620723.md
+        - news/m-660711.md
+        - news/m-780407.md
+  news-(cn):
+    name: News (CN)
+    path: content/news
+  default_hugo_pages:
+    name: Pages
+    path: content/
+collection_groups:
+  - heading: Single Pages
+    collections:
+      - pages-(cn)
+  - heading: Blog Post
+    collections:
+      - news-(cn)
+paths:
+  static: static/
+  uploads: images
+_inputs:
+  template:
+    hidden: true
