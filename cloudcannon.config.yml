@@ -28,7 +28,7 @@ collection_groups:
       - news-(cn)
 paths:
   static: static/
-  uploads: images
+  uploads: static/images
 _inputs:
   template:
     hidden: true
