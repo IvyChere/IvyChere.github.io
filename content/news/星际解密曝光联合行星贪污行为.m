@@ -3,7 +3,7 @@ categories = [ "星辰通讯社" ]
 date = 2022-01-21T16:00:00.000Z
 description = ""
 images = [ ]
-tags = [ ]
+tags = [ "星际解密（InterplanetaryLeaks )",  "联合行星(UPI)" ]
 title = "星际解密曝光联合行星贪污行为"
 +++
 **星辰社 &nbsp;2106 年3 月11 日（火星73 年6 月18 日） 电**
