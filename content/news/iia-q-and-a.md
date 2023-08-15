@@ -55,6 +55,6 @@ A:我们只是想证明星际移民局不只有会扣人工资的老官僚而已
 
 [^I]: 因所在地法律法规不同而存在差异，一般是负责办理护照的部门，及本地的移民局、出入境管理大厅或者户籍管理部门等。
 
-[^A]：[点击此处跳转](http://interimm.org/mars-map/)
+[^A]: [点击此处跳转](http://interimm.org/mars-map/)
 
-[^B]：[点击此处跳转](http://interimm.org/mars-exploration-map/)
+[^B]: [点击此处跳转](http://interimm.org/mars-exploration-map/)
